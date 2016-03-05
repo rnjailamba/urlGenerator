@@ -9,8 +9,8 @@ A small library creating a url from base url and parameters / key value pairs
 
 ## Usage
 
-  var urlgenerator = require('urlgenerator')
-      createURLwithParameters = urlgenerator.createURLwithParameters;
+  var urlgenerator = require('urlgenerator');
+  var createURLwithParameters = urlgenerator.createURLwithParameters;
 
 	var baseURL = "www.google.com";
 	var parameters = {};
