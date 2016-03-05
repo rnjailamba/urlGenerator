@@ -10,11 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/rnjailamba/urlGenerator.git"
   },
-  "keywords": [
-    "[\"url",
-    "generator\"",
-    "\"url\"",
-    "\"nodejs\"]"
+  "keywords": [url,generator,urlgenerator,nodejs,expressjs
   ],
   "author": "Rnjai Lamba <rnjailamba12@gmail.com>",
   "license": "BSD-2-Clause",
