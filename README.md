@@ -5,13 +5,13 @@ A small library creating a url from base url and parameters / key value pairs
 
 ## Installation
 
+```shell
   npm install urlgenerator --save
-
+```
+  
 ## Usage
 
-
 ```
-
   var urlgenerator = require('urlgenerator');
   var createURLwithParameters = urlgenerator.createURLwithParameters;
 	var baseURL = "www.google.com";
@@ -22,13 +22,13 @@ A small library creating a url from base url and parameters / key value pairs
   console.log("final URL is " , finalURL);
  
   prints - final URL is www.google.com?mobile=7838185123&shit=xxx
-
 ```
-
 
 ## Tests
 
-  npm test
+```shell
+   npm test
+```
 
 ## Contributing
 
