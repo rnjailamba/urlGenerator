@@ -16,5 +16,12 @@ describe('Blobs', function() {
 
     createURLwithParameters(baseURL,parameters).should.equal('www.google.com?mobile=7838185123&shit=xxx');
   });
+
+  it('converts base url to complete;', function() {
+    var baseURL = "www.google.com";
+   var parameters = {};
+
+    createURLwithParameters(baseURL,parameters).should.equal('www.google.com');
+  });
 });
 
