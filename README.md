@@ -11,17 +11,14 @@ A small library creating a url from base url and parameters / key value pairs
 
   var urlgenerator = require('urlgenerator');
   var createURLwithParameters = urlgenerator.createURLwithParameters;
-
 	var baseURL = "www.google.com";
 	var parameters = {};
 	parameters.mobile = '7838185123';
 	parameters.shit = 'xxx';
-
 	var finalURL = createURLwithParameters(baseURL,parameters);
-
   console.log("final URL is " , finalURL);
-  prints 
-  final URL is www.google.com?mobile=7838185123&shit=xxx
+ 
+  prints - final URL is www.google.com?mobile=7838185123&shit=xxx
 
 
 ## Tests
