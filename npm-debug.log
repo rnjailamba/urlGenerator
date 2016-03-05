@@ -3,31 +3,94 @@
 2 info using npm@3.3.6
 3 info using node@v5.0.0
 4 verbose publish [ '.' ]
-5 verbose stack Error: Failed to parse json
-5 verbose stack Unexpected token 'u' at 13:16
-5 verbose stack   "keywords": [url,generator,urlgenerator,nodejs,expressjs
-5 verbose stack                ^
-5 verbose stack     at parseError (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:379:11)
-5 verbose stack     at parseJson (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:68:23)
-5 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:48:5
-5 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:76:16
-5 verbose stack     at tryToString (fs.js:414:3)
-5 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:401:12)
-6 verbose cwd /Users/rnjailamba/Desktop/NodeFolder/urlGenerator
-7 error Darwin 15.0.0
-8 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
-9 error node v5.0.0
-10 error npm  v3.3.6
-11 error file /Users/rnjailamba/Desktop/NodeFolder/urlGenerator/package.json
-12 error code EJSONPARSE
-13 error Failed to parse json
-13 error Unexpected token 'u' at 13:16
-13 error   "keywords": [url,generator,urlgenerator,nodejs,expressjs
-13 error                ^
-14 error File: /Users/rnjailamba/Desktop/NodeFolder/urlGenerator/package.json
-15 error Failed to parse package.json data.
-15 error package.json must be actual JSON, not just JavaScript.
-15 error
-15 error This is not a bug in npm.
-15 error Tell the package author to fix their package.json file. JSON.parse
-16 verbose exit [ 1, true ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/rnjailamba/Desktop/NodeFolder/urlGenerator',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/rnjailamba/.npm/urlgenerator/0.1.0/package.tgz not in flight; packing
+9 info lifecycle urlgenerator@0.1.0~prepublish: urlgenerator@0.1.0
+10 silly lifecycle urlgenerator@0.1.0~prepublish: no script for prepublish, continuing
+11 verbose tar pack [ '/Users/rnjailamba/.npm/urlgenerator/0.1.0/package.tgz',
+11 verbose tar pack   '/Users/rnjailamba/Desktop/NodeFolder/urlGenerator' ]
+12 verbose tarball /Users/rnjailamba/.npm/urlgenerator/0.1.0/package.tgz
+13 verbose folder /Users/rnjailamba/Desktop/NodeFolder/urlGenerator
+14 verbose addLocalTarball adding from inside cache /Users/rnjailamba/.npm/urlgenerator/0.1.0/package.tgz
+15 silly cache afterAdd urlgenerator@0.1.0
+16 verbose afterAdd /Users/rnjailamba/.npm/urlgenerator/0.1.0/package/package.json not in flight; writing
+17 verbose afterAdd /Users/rnjailamba/.npm/urlgenerator/0.1.0/package/package.json written
+18 silly publish { name: 'urlgenerator',
+18 silly publish   version: '0.1.0',
+18 silly publish   description: 'Simple url generation for Node JS , Express JS',
+18 silly publish   main: 'index.js',
+18 silly publish   scripts: { test: 'mocha' },
+18 silly publish   repository:
+18 silly publish    { type: 'git',
+18 silly publish      url: 'git+https://github.com/rnjailamba/urlGenerator.git' },
+18 silly publish   keywords: [ 'url', 'generator', 'urlgenerator', 'nodejs', 'expressjs' ],
+18 silly publish   author: { name: 'Rnjai Lamba', email: 'rnjailamba12@gmail.com' },
+18 silly publish   license: 'BSD-2-Clause',
+18 silly publish   bugs: { url: 'https://github.com/rnjailamba/urlGenerator/issues' },
+18 silly publish   homepage: 'https://github.com/rnjailamba/urlGenerator#readme',
+18 silly publish   devDependencies: { chai: '^3.5.0', 'chai-http': '^2.0.1', mocha: '^2.4.5' },
+18 silly publish   licenses: [ { type: 'MIT' } ],
+18 silly publish   readme: 'URL Generator for Node JS / Express JS\n=======================================\n\nA small library creating a url from base url and parameters / key value pairs\n\n## Installation\n\n```shell\n  npm install urlgenerator --save\n```\n  \n## Usage\n\n```\n  var urlgenerator = require(\'urlgenerator\');\n  var createURLwithParameters = urlgenerator.createURLwithParameters;\n\tvar baseURL = "www.google.com";\n\tvar parameters = {};\n\tparameters.mobile = \'7838185123\';\n\tparameters.shit = \'xxx\';\n\tvar finalURL = createURLwithParameters(baseURL,parameters);\n  console.log("final URL is " , finalURL);\n \n  prints - final URL is www.google.com?mobile=7838185123&shit=xxx\n```\n\n## Tests\n\n```shell\n   npm test\n```\n\n## Contributing\n\nIn lieu of a formal styleguide, take care to maintain the existing coding style.\nAdd unit tests for any new or changed functionality. Lint and test your code.\n\n## Release History\n\n* 0.1.0 Initial release\n',
+18 silly publish   readmeFilename: 'README.md',
+18 silly publish   gitHead: 'b327217fb19b4a0ced9d2db714a2bb9f57346c07',
+18 silly publish   _id: 'urlgenerator@0.1.0',
+18 silly publish   _shasum: 'd40ab65130074467e71a22d6e7ebbcf6343d489e',
+18 silly publish   _from: '.' }
+19 verbose getPublishConfig undefined
+20 silly mapToRegistry name urlgenerator
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/urlgenerator
+24 verbose publish registryBase https://registry.npmjs.org/
+25 silly publish uploading /Users/rnjailamba/.npm/urlgenerator/0.1.0/package.tgz
+26 verbose request uri https://registry.npmjs.org/urlgenerator
+27 verbose request sending authorization for write operation
+28 info attempt registry request try #1 at 7:02:02 PM
+29 verbose request using bearer token for auth
+30 verbose request id ac2784d1a5291288
+31 http request PUT https://registry.npmjs.org/urlgenerator
+32 http 403 https://registry.npmjs.org/urlgenerator
+33 verbose headers { 'content-type': 'application/json',
+33 verbose headers   'cache-control': 'max-age=300',
+33 verbose headers   'content-length': '95',
+33 verbose headers   'accept-ranges': 'bytes',
+33 verbose headers   date: 'Sat, 05 Mar 2016 13:32:05 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-atl6242-ATL',
+33 verbose headers   'x-cache': 'MISS',
+33 verbose headers   'x-cache-hits': '0',
+33 verbose headers   'x-timer': 'S1457184724.564068,VS0,VE1009' }
+34 verbose request invalidating /Users/rnjailamba/.npm/registry.npmjs.org/urlgenerator on PUT
+35 error publish Failed PUT 403
+36 verbose stack Error: "You cannot publish over the previously published version 0.1.0." : urlgenerator
+36 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+36 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+36 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+36 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:198:22)
+36 verbose stack     at emitTwo (events.js:87:13)
+36 verbose stack     at Request.emit (events.js:172:7)
+36 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1063:14)
+36 verbose stack     at emitOne (events.js:82:20)
+36 verbose stack     at Request.emit (events.js:169:7)
+36 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+37 verbose statusCode 403
+38 verbose pkgid urlgenerator
+39 verbose cwd /Users/rnjailamba/Desktop/NodeFolder/urlGenerator
+40 error Darwin 15.0.0
+41 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+42 error node v5.0.0
+43 error npm  v3.3.6
+44 error code E403
+45 error "You cannot publish over the previously published version 0.1.0." : urlgenerator
+46 error If you need help, you may report this error at:
+46 error     <https://github.com/npm/npm/issues>
+47 verbose exit [ 1, true ]
