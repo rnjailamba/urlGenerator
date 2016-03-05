@@ -9,7 +9,7 @@ chai.use(chaiHttp);
 
 describe('Blobs', function() {
   it('converts base url to complete;', function() {
-    var baseURL = "www.google.com";
+   var baseURL = "www.google.com";
    var parameters = {};
    parameters.mobile = '7838185123';
    parameters.shit = 'xxx';
