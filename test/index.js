@@ -13,9 +13,8 @@ describe('Blobs', function() {
    var parameters = {};
    parameters.mobile = '7838185123';
    parameters.shit = 'xxx';
-   var result = createURLwithParameters(baseURL,JSON.stringify(parameters));
 
-    createURLwithParameters(baseURL,JSON.stringify(parameters)).should.equal('www.google.com?mobile=7838185123&shit=xxx');
+    createURLwithParameters(baseURL,parameters).should.equal('www.google.com?mobile=7838185123&shit=xxx');
   });
 });
 
