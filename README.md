@@ -1,3 +1,6 @@
+[![npm version](https://badge.fury.io/js/urlgenerator.svg)](https://badge.fury.io/js/urlgenerator)
+
+[![NPM](https://nodei.co/npm/urlgenerator.png?downloads=true)](https://nodei.co/npm/urlgenerator.png?downloads=true)
 URL Generator for Node JS / Express JS
 =======================================
 
@@ -14,11 +17,11 @@ A small library creating a url from base url and parameters / key value pairs
 ```
   var urlgenerator = require('urlgenerator');
   var createURLwithParameters = urlgenerator.createURLwithParameters;
-	var baseURL = "www.google.com";
-	var parameters = {};
-	parameters.mobile = '7838185123';
-	parameters.shit = 'xxx';
-	var finalURL = createURLwithParameters(baseURL,parameters);
+  var baseURL = "www.google.com";
+  var parameters = {};
+  parameters.mobile = '7838185123';
+  parameters.shit = 'xxx';
+  var finalURL = createURLwithParameters(baseURL,parameters);
   console.log("final URL is " , finalURL);
  
   prints - final URL is www.google.com?mobile=7838185123&shit=xxx
