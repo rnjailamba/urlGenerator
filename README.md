@@ -1,6 +1,6 @@
 [![npm version](https://badge.fury.io/js/urlgenerator.svg)](https://badge.fury.io/js/urlgenerator)
-
 [![NPM](https://nodei.co/npm/urlgenerator.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/urlgenerator)
+
 URL Generator for Node JS / Express JS / Javascript
 =======================================
 
