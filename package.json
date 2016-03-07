@@ -1,6 +1,6 @@
 {
   "name": "urlgenerator",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Simple url generation for Node JS , Express JS",
   "main": "index.js",
   "scripts": {
