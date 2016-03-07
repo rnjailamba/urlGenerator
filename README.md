@@ -1,7 +1,7 @@
 [![npm version](https://badge.fury.io/js/urlgenerator.svg)](https://badge.fury.io/js/urlgenerator)
 
-[![NPM](https://nodei.co/npm/urlgenerator.png?downloads=true)](https://www.npmjs.com/package/urlgenerator)
-URL Generator for Node JS / Express JS
+[![NPM](https://nodei.co/npm/urlgenerator.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/urlgenerator)
+URL Generator for Node JS / Express JS / Javascript
 =======================================
 
 A small library creating a url from base url and parameters / key value pairs
@@ -41,3 +41,5 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 ## Release History
 
 * 0.1.0 Initial release
+* 0.2.0 Initial release
+* 0.3.0 Current release
