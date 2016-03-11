@@ -18,7 +18,7 @@ A small library creating a url from base url and parameters / key value pairs
   npm install urlgenerator --save
 ```
   
-## Usage
+## Usage - Example 1
 
 ```
   var urlgenerator = require('urlgenerator');
@@ -27,6 +27,20 @@ A small library creating a url from base url and parameters / key value pairs
   var parameters = {};
   parameters.mobile = '7838185123';
   parameters.shit = 'xxx';
+  var finalURL = createURLwithParameters(baseURL,parameters);
+  console.log("final URL is " , finalURL);
+ 
+  prints - final URL is www.google.com?mobile=7838185123&shit=xxx
+```
+
+## Usage - Example 2
+
+```
+  var urlgenerator = require('urlgenerator');
+  var createURLwithParameters = urlgenerator.createURLwithParameters;
+  var baseURL = "www.google.com";
+  var parameters = { 'mobile' : '7838185123',
+                     'shit' : 'xxx'  };
   var finalURL = createURLwithParameters(baseURL,parameters);
   console.log("final URL is " , finalURL);
  
