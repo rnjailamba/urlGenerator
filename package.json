@@ -1,7 +1,7 @@
 {
   "name": "urlgenerator",
-  "version": "0.3.0",
-  "description": "Simple url generation for Node JS , Express JS",
+  "version": "0.7.0",
+  "description": "Simple url generation for Node JS , Express JS that works!",
   "main": "index.js",
   "scripts": {
     "test": "\"echo \"Error: no test specified\" && exit 1\""
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/rnjailamba/urlGenerator.git"
   },
-  "keywords": ["url","generator","urlgenerator","nodejs","expressjs","javascript"
+  "keywords": ["url","generator","urlgenerator","url generator","nodejs","expressjs","javascript"
   ],
   "author": "Rnjai Lamba <rnjailamba12@gmail.com>",
   "license": "BSD-2-Clause",
