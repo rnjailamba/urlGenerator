@@ -1,7 +1,7 @@
 {
   "name": "urlgenerator",
-  "version": "0.7.1",
-  "description": "Simple url generation for Node JS , Express JS that works! [[www.abc.xyz?def=ghi&jkl=mno]",
+  "version": "0.7.2",
+  "description": "Simple url generation for Node JS , Express JS that works! [www.abc.xyz?def=ghi&jkl=mno]",
   "main": "index.js",
   "scripts": {
     "test": "\"echo \"Error: no test specified\" && exit 1\""
